@@ -1,177 +1,48 @@
 /*  your css code here. If applicable */
+
 body {
-  /*font-family: Arial, sans-serif;
-  background-color: #f0f2f5;*/
-	background-color:  #f6f6f6;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
-.container {
-	display:flex;
-	flex-direction:row;
-}
-.left{
-	width: 450px;
-	margin-top: 70px;
-	display: inline-block;
-}
-.form{
-	display: flex;
-	width: 300px;
-	background-color: white;
-	padding: 20px;
-	border-radius: 5px;
-	box-shadow: 0 0 10px #ccc;
-	flex-direction: column;
-	gap: 10px;
-}
-.form input{
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	padding: 10px;
-}
-.form button{
-	background-color: #1877f2;
-	border-radius:5px;
-	padding: 10px 20px;
-}
-.create-account-btn{
-	background-color: 42b72a;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-
-
-/*img{
-  justify-content: center;
-  left: 30px;
-  padding:30px;
-  width:90px;
-  height:90px;
+.left {
+    width: 450px;
+    margin-top: 70px;
+    display: inline-block;
 }
 
-.container {
-	display:flex;
-	flex-direction:row;
-}
-.login{
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 40px;
-  background-color: #fff;
-  border: 1px solid #dddfe2;
-  border-radius: 8px;
-}
-.left p{
-	
-}
-.left img {
-  width: 120px;
-  height: auto;
+.right form {
+    display: flex;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.description {
-  margin-top: 20px;
+.right form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.login-form input {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  border: 1px solid #dddfe2;
-  border-radius: 4px;
-	
+.right form button {
+    background-color: #1877f2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
 }
 
-.login-form button {
-  display: block;
-  width: 100%;
-  padding: 12px;
-  margin-top: 20px;
-  background-color: #1877f2;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.forgot-account {
-  display: block;
-  margin-top: 10px;
-  color: #1877f2;
-  text-decoration: none;
+.right form a {
+    text-decoration: none;
+    color: #1877f2;
 }
 
-.create-account {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.create-account p {
-  margin-bottom: 10px;
-}
-
-.create-account-btn {
-
-  color: white;
-  text-decoration: none;
-	padding:10px 20px;
-	background-color:green;
-	color: white;
-	border-radius:5px;
-}
-.create-account-btn >a{
-	border: 2px solid red;
-}
-a.forgot{
-	text-decoration:none;
-	color:#1877f2;
-}
-
-form input {
-  height: 55px;
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  font-size: 1rem;
-  padding: 10px;
-}
-#email {
-  height: 55px;
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  font-size: 1rem;
-  padding: 10px;
-}
-#password {
-  height: 55px;
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  font-size: 1rem;
-  padding: 10px;
-}
-form input:focus {
-  outline: none;
-  border-color: #1877f2;
-}
-.link>button{
-	height:100%;
-	width:100%;
-	background-color:#1877f2;
-	border-radius:5px;
-	padding:10px;
-	color:white;
-}
-a.signup {
-	height:100hv;
-	width:100wv;
-	background-color:#42b72a;
-	color:white;
-	border-radius:5px;
+.signup {
+    background-color: #42b72a;
 }
